@@ -1,0 +1,11 @@
+.searchbar-area {
+  width: 90%;
+  height: 8%;
+  font-size: 20px;
+  padding: 10px;
+  align-self: center;
+  margin-top: 3%;
+  outline: none;
+  border: black 3px solid;
+  border-radius: 15px;
+}
