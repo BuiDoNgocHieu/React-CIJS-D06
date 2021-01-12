@@ -1,0 +1,35 @@
+.card-area {
+  width: 100%;
+  /* height: auto; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  justify-content: space-evenly; */
+  /* margin-left: 15%; */
+  /* margin-top: 5%; */
+}
+.card-image {
+  object-fit: contain;
+  display: block;
+  width: 140px;
+  height: 250px;
+  /* border-radius: 55px; */
+  padding-left: 10%;
+}
+
+input:active {
+  background-color: #84bdcf;
+}
+.card-image[flip="1"] {
+  animation: flip 0.2s;
+}
+
+@keyframes flip {
+  50% {
+    transform: rotateY(160deg);
+  }
+
+  100% {
+    transform: rotateY(0);
+  }
+}
