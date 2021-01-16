@@ -1,0 +1,40 @@
+.section-cont {
+  height: 95%;
+  width: 30%;
+  margin: auto;
+}
+.type-cont {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fire {
+  background-color: #e95e0e;
+  color: white;
+}
+.water {
+  background-color: #1cf7ec;
+  color: black;
+}
+.grass {
+  background-color: #37ec12;
+  color: black;
+}
+.type-cont > p {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.pokemons-cont {
+  width: 100%;
+  height: 95%;
+  overflow: scroll;
+  border: #cfdfde solid 1px;
+}
+.pokemons-cont > .pokemon-cont {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}

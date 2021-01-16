@@ -1,0 +1,11 @@
+.pokemon-cont > img {
+  height: 1%;
+}
+.collection-cont > .pokemon-cont {
+  width: 30%;
+  height: 25%;
+  margin: 0px 1.6%;
+  display: flex;
+  justify-content: center;
+  /* border:  1px solid red; */
+}
