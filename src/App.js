@@ -19,7 +19,7 @@ let pokemon_data = [
   'https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png',
   'https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png',
   'https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png',
-  // 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png',
+
 ]
 
 pokemon_data = [].concat(pokemon_data, pokemon_data)
