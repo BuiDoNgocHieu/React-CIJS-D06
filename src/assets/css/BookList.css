@@ -1,0 +1,9 @@
+.booklist-area {
+  width: 75%;
+  height: 100%;
+  /* overflow: scroll; */
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
