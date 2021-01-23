@@ -1,6 +1,8 @@
+
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import { firebaseConfig } from '../config/config.firebase'
+
 try {
     firebase.initializeApp(firebaseConfig)
 } catch (e) {
@@ -8,37 +10,8 @@ try {
 }
 const db = firebase.firestore()
 
-//Cách 1. (Tạo)
 
-// export function signUp(userInformation) {
-//     return new Promise((resolve, reject) => {
-//         const { username, password } = userInformation
-//         db.collection('users')
-//         .where('username', '==', username)
-//         .get()
-//         .then(querySnapshot => {
-//             if (!querySnapshot.empty) {
-//                 throw new Error('Username was existed!')
-//             } 
-//         })
-// .then(() => {
-//     db.collection('users')
-//         // .doc('daylanewid')
-//         .add({
-//             username: username,
-//             password: password
-//         }).then(data => {
-//             console.log('Sign up successful!')
-//             resolve(data.id)
-//         })
-// })
-// .catch(err=>{
-//     reject(err)
-// })
-//     })
-// }
-
-//Cách 2.(Tạo)
+//Cách 1.(Tạo)
 export async function signUp(userInformation) {
     try {
         const { username, password } = userInformation
@@ -112,3 +85,35 @@ export async function getTodo(userId) {
             return todos
         })
 }
+
+
+
+
+//Cách 2. (Tạo)
+// export function signUp(userInformation) {
+//     return new Promise((resolve, reject) => {
+//         const { username, password } = userInformation
+//         db.collection('users')
+//         .where('username', '==', username)
+//         .get()
+//         .then(querySnapshot => {
+//             if (!querySnapshot.empty) {
+//                 throw new Error('Username was existed!')
+//             } 
+//         })
+// .then(() => {
+//     db.collection('users')
+//         // .doc('daylanewid')
+//         .add({
+//             username: username,
+//             password: password
+//         }).then(data => {
+//             console.log('Sign up successful!')
+//             resolve(data.id)
+//         })
+// })
+// .catch(err=>{
+//     reject(err)
+// })
+//     })
+// }
