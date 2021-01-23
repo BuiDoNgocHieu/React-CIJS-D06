@@ -1,0 +1,33 @@
+.nav-cont {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  box-shadow: 10px 10px 10px rgb(116, 116, 116);
+}
+.nav-cont > .nav-items {
+  display: block;
+  width: 15%;
+  height: 100%;
+  /* border: blue 2px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-cont > .nav-items > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  font-weight: 400;
+}
+.nav-cont > .nav-items:nth-child(2) {
+  margin-left: auto;
+}
+.nav-cont > .nav-items:hover {
+  color: black;
+  background-color: rgb(56, 34, 34);
+}
+.tittle {
+  margin-left: 4%;
+}
