@@ -1,0 +1,69 @@
+.signup-cont {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.signup-cont > form {
+  width: 30%;
+  height: 80%;
+}
+.signup-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.signup-tittle {
+  width: 100%;
+  height: 13%;
+  padding-left: 5%;
+  border-bottom: rgb(139, 139, 141) solid 1px;
+}
+.signup-h1 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.signup-name {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.signup-name > input {
+  width: 10.5rem;
+  height: 2.5rem;
+  padding: 10px 13px;
+  font-size: 17px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid grey;
+  background-color: rgb(245, 246, 247);
+  margin-top: 7%;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+.signup-input > input {
+  width: 22rem;
+  height: 2.5rem;
+  padding: 10px 13px;
+  font-size: 17px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid grey;
+  background-color: rgb(245, 246, 247);
+  margin-top: 7%;
+}
+.signup-select > opition {
+  width: 2.5rem;
+  height: 2rem;
+  /* padding: 10px 13px;
+  font-size: 17px;
+  border-radius: 6px; */
+  outline: none;
+  border: 1px solid grey;
+  background-color: rgb(245, 246, 247);
+  margin-top: 7%;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
