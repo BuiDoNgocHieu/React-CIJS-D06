@@ -5,10 +5,6 @@ import { Home } from './components/Home'
 import { SignIn } from './components/SignIn'
 import { SignUp } from './components/SignUp'
 
-
-
-
-
 function App() {
   let path = window.location.pathname
   let listOfUrls = [

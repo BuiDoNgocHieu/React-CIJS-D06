@@ -86,8 +86,23 @@ export async function getTodo(userId) {
         })
 }
 
+export async function getTodo(userId) {
+    db.collection('todos').where('userId', '==', userId)
+        .get()
+        .then(data => {
 
-
+        })
+}
+let todo = [
+    {
+        title: "buoisang",
+        daycreat: "12/12",
+        content: "di hoc",
+        id: "CR0BdsxIBYAWx1jkuFO",
+        userId,
+        isComplete: false,
+    }
+]
 
 //Cách 2. (Tạo)
 // export function signUp(userInformation) {

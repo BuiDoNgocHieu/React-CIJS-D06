@@ -1,9 +1,5 @@
 function About(props) {
-    return(
-        <div>
-            this is About
-        </div>
-    )
+  return <div>chisnh sasch vaf ddieefu khaorn cur todoapp</div>;
 }
 
-export {About}
+export { About };
