@@ -1,6 +1,6 @@
 .signup-cont {
   width: 100%;
-  height: 60rem;
+  height: 45rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
 }
 .signup-tittle {
   width: 100%;
-  height: 13%;
+  height: 17%;
   padding-left: 5%;
   border-bottom: rgb(139, 139, 141) solid 1px;
 }
@@ -54,16 +54,15 @@
   background-color: rgb(245, 246, 247);
   margin-top: 7%;
 }
-.signup-select > opition {
-  width: 2.5rem;
-  height: 2rem;
-  /* padding: 10px 13px;
-  font-size: 17px;
-  border-radius: 6px; */
-  outline: none;
-  border: 1px solid grey;
-  background-color: rgb(245, 246, 247);
-  margin-top: 7%;
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+.cookie {
+  width: 85%;
+  margin-top: 5%;
+  font-size: 12px;
+}
+.signup-input > input[type="button"] {
+  margin-top: 5%;
+  height: 45px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(116, 116, 116);
 }
