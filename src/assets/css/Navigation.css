@@ -1,0 +1,68 @@
+.nav-cont {
+  height: 8%;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(240, 236, 221);
+  box-shadow: 5px 5px 5px rgb(116, 116, 116);
+}
+.nav-cont > .nav-items {
+  display: block;
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.nav-cont > .nav-tittle > a {
+  text-decoration: none;
+  color: rgb(140, 102, 53);
+  outline: none;
+  font-weight: 900;
+  font-size: 35px;
+}
+.nav-cont > .nav-items:nth-child(2) {
+  margin-left: auto;
+}
+.nav-cont > .nav-items:hover {
+  background-color: rgb(140, 205, 55);
+}
+.nav-tittle {
+  margin-left: 6%;
+  height: 100%;
+  /* border-radius: 50%; */
+  /* font-size: 25px; */
+  display: block;
+  /* width: 10%;
+  height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tools {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  text-decoration: none;
+}
+.nav-cont > .nav-items > a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+span.notify-right {
+  background: url(../images/ic_hot.gif) no-repeat;
+  right: 1px;
+  top: -7px;
+}
+span.notify {
+  width: 32px;
+  height: 22px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  line-height: normal;
+  font-size: 11px;
+  padding-top: 3px;
+  z-index: 1;
+}

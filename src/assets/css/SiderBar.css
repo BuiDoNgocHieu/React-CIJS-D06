@@ -1,0 +1,29 @@
+.siderbar-cont {
+  width: 50%;
+  height: 100%;
+  /* border: orangered 4px solid; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.siderbar-title > a {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(139, 203, 53);
+  letter-spacing: 0.05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px;
+  height: 100px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.siderbar-contai > p {
+  width: 90%;
+  /* border: 2px red solid; */
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: normal;
+  margin-left: 2%;
+  margin-top: 2%;
+  text-indent: 20px;
+}
