@@ -3,11 +3,11 @@ import "../assets/css/TodoList.css";
 function Todo(props) {
   return (
     <div className="todo border">
-      <div className="todo-title complete">
+      <div className={`todo-title  ${props.isComplete ? "complete" : ""}`}>
         <h1>title</h1>
         <small>created</small>
       </div>
-      <div className="todo-content complete">
+      <div className={`todo-content ${props.isComplete ? "complete" : ""}`}>
         <p>content</p>
       </div>
 

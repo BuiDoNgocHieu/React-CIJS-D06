@@ -1,0 +1,48 @@
+.editor-cont {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+.editor-title {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 5%;
+  width: 100%;
+}
+.editor-content {
+  height: 80%;
+  width: 100%;
+  /* overflow: scroll; */
+}
+.editor-function {
+  height: 5%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.editor-function > .button {
+  margin-left: 0;
+  margin-right: 2%;
+}
+.quit {
+  margin: auto auto auto 1%;
+  height: fit-content;
+  color: yellowgreen;
+}
+.editor-title > input,
+.editor-content > textarea {
+  margin: auto;
+  display: block;
+  height: 95%;
+  width: 98%;
+  font-size: 20px;
+  resize: none;
+  outline: none;
+  padding: 0.5%;
+  overflow: auto;
+}

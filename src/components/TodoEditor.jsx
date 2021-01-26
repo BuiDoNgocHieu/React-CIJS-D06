@@ -1,4 +1,5 @@
-export function Todoeditor({
+import "../assets/css/TodoEditor.css";
+export function TodoEditor({
   indx,
   title,
   created,
@@ -7,6 +8,7 @@ export function Todoeditor({
   id,
   userId,
   isComplete,
+  cancel,
 }) {
   // console.log(indx)
   return (
@@ -17,20 +19,19 @@ export function Todoeditor({
           type="button"
           value="SAVE"
           onClick={() =>
-            Todo(indx, {
-              title: "buoisang",
-              daycreat: "12/12",
-              content: "di hoc",
-              id: "CR0BdsxIBYAWx1jkuFO",
-              userId,
-              isComplete: false,
-            })
+            saveTodo(indx, { title, created, content, id, userId, isComplete })
           }
         />
-        <i className="fal fa-times fa-2x quit"></i>
+        <i className="fal fa-times fa-2x quit" onClick={() => cancel()}></i>
       </div>
       <div className="editor-title">
-        <input type="text" />
+        <input
+          type="text"
+          defaultValue={title}
+          onChange={(e) => {
+            title = e.target.value;
+          }}
+        />
       </div>
       <div className="editor-content">
         <textarea

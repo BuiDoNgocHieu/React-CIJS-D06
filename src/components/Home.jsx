@@ -1,14 +1,13 @@
-import { SiderBar } from "../components/SiderBar";
-import "../assets/css/Home.css";
-import { Todo } from "../components/Todo";
+import { Sidebar } from "../components/SiderBar";
+import { Display } from "./Display";
 
+import "../assets/css/Home.css";
 function Home(props) {
   return (
-    <div className="home-cont">
-      <SiderBar />
-      <Todo />
+    <div className="home-cont border">
+      <Sidebar userId={props.userId} />
+      <Display userId={props.userId} />
     </div>
   );
 }
-
 export { Home };
