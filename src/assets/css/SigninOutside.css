@@ -1,38 +1,29 @@
-.signin-cont {
-  width: 100%;
+.signin-Out-cont {
+  width: 95%;
   height: 100%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   background-color: rgb(255, 255, 255);
-  /* margin-top: 0.5%; */
+  margin-top: 0.5%;
   color: rgb(133, 98, 54);
-  flex-direction: row;
 }
-.signin-image {
-  width: 50%;
-}
-.signin-image > img {
-  width: 100%;
-  height: 100%;
-  border-radius: none;
-}
-.signin-cont > form {
-  width: 50%;
-  height: 100%;
-  background-color: rgb(250, 248, 241);
+.signin-Out-cont > form {
+  width: 70%;
+  height: 78%;
+  background-color: rgb(244, 240, 226);
   border: 1px solid grey;
   border-radius: 2px;
 }
-.signin-tittle {
+.signin-Out-tittle {
   width: 100%;
   height: 12%;
   /* border: 3px solid red; */
   background-color: rgb(142, 207, 55);
   color: white;
 }
-.signin-tittle > p {
-  font-size: 30px;
+.signin-Out-tittle > p {
+  font-size: 20px;
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -40,7 +31,7 @@
   font-weight: 800;
 }
 
-.signin-second-bar {
+.signin-Out-second-bar {
   width: 100%;
   height: 12%;
   border-bottom: 2px dashed grey;
@@ -48,40 +39,50 @@
   flex-direction: row;
   align-items: center;
 }
-.signin-second-bar > p {
+.signin-Out-second-bar > p {
   margin-left: 2%;
   font-weight: 700;
   font-size: 17px;
   color: rgb(107, 77, 37);
 }
-.tool-second-bar {
+.tools-second-bar {
   margin-left: auto;
   display: flex;
   flex-direction: row;
 }
-.tool-second-bar > small {
+.tools-second-bar > small {
   font-size: 15px;
   display: flex;
   align-items: center;
 }
-.tool-second-bar > img {
+.tools-second-bar > img {
   width: 60%;
   height: 35px;
   margin-left: 3%;
 }
-.signin-input {
+.tools-there-bar > p {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.tools-there-bar > p > a {
+  font-weight: 700;
+  font-size: 17px;
+  text-decoration: none;
+  /* color: rgb(142, 207, 55); */
+}
+.signin-Out-input {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   /* margin-top: 5%; */
 }
-.signin-input > .signin-input-child {
+.signin-Out-input > .signin-Out-input-child {
   display: flex;
   flex-direction: row;
   margin-top: 5%;
 }
-.signin-input > .signin-input-child > input {
+.signin-Out-input > .signin-Out-input-child > input {
   width: 15rem;
   height: 0.5rem;
   padding: 10px 13px;
@@ -93,10 +94,10 @@
   margin-left: 4%;
   /* margin-top: 3%; */
 }
-.signin-input > .signin-input-child > p {
+.signin-Out-input > .signin-Out-input-child > p {
   margin-right: 8%;
 }
-.signin-input > input[type="button"] {
+.signin-Out-input > input[type="button"] {
   margin-top: 3%;
   height: 45px;
   width: 15rem;
@@ -108,22 +109,75 @@
   outline: none;
   border-radius: 10px;
 }
-.signin-password {
+.signin-Out-forget-password {
   display: flex;
   justify-content: center;
   margin-top: 2%;
 }
-.signin-epilogues {
+.signin-Out-epilogue {
   border-top: 2px dashed grey;
-  height: 8rem;
-  margin-top: 6rem;
+  height: 4rem;
+  margin-top: 3.2rem;
   background-color: white;
 }
-.signin-epilogues > p {
+.signin-Out-epilogue > p {
   display: flex;
   justify-content: center;
-  padding-top: 7%;
-  font-size: 17px;
+  padding-top: 3%;
+  font-size: 15px;
   font-weight: 500;
   /* align-items: center; */
+}
+
+@-webkit-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@-moz-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@-o-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+.tools-there-bar > p > a {
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-animation: my 200ms infinite;
+  -moz-animation: my 200ms infinite;
+  -o-animation: my 200ms infinite;
+  animation: my 200ms infinite;
 }

@@ -1,5 +1,5 @@
 .siderbar-cont {
-  width: 50%;
+  width: 70%;
   height: 100%;
   /* border: orangered 4px solid; */
   display: flex;
@@ -16,6 +16,9 @@
   height: 100px;
   font-weight: 700;
   text-decoration: none;
+}
+.siderbar-title > a > h2 {
+  padding-left: 2%;
 }
 .siderbar-contai > p {
   width: 90%;

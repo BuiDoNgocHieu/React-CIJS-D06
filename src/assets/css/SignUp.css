@@ -1,0 +1,184 @@
+.signup-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(126, 89, 42);
+}
+.signup-cont > form {
+  width: 70%;
+  height: 90%;
+  background-color: rgb(244, 240, 226);
+}
+
+.signup-bar {
+  width: 100%;
+  height: 12%;
+  border-bottom: 2px dashed grey;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.signup-bar > p {
+  margin-left: 2%;
+  font-weight: 900;
+  font-size: 20px;
+  color: rgb(107, 77, 37);
+}
+.signup-tool-bar {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.signup-tool-bar > small {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+.signup-tool-bar > img {
+  width: 60%;
+  height: 40px;
+  margin-left: 3%;
+}
+.signup-card-p {
+  margin-top: 1%;
+  margin-left: 2%;
+}
+.signup-card-p > p > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(134, 189, 59);
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: auto;
+}
+
+.signup-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+.signup-name > .haha {
+  margin-left: 3%;
+}
+.signup-name > input {
+  width: 17rem;
+  height: 0.8rem;
+  padding: 10px 13px;
+  font-size: 15px;
+  margin-left: 2%;
+  border-radius: 3px;
+  color: #7e592a;
+  outline: none;
+  border: 1px solid #cebda2;
+  background-color: rgb(250, 248, 241);
+}
+.signup-inps {
+  /* border: 3px purple solid; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+.signup-inps > label {
+  width: 30%;
+  height: 100%;
+  /* border: black 2px solid; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.signup-inps > .signup-input > input {
+  width: 19rem;
+  height: 0.8rem;
+  padding: 10px 13px;
+  font-size: 15px;
+  border-radius: 3px;
+  color: #7e592a;
+  outline: none;
+  border: 1px solid #cebda2;
+  background-color: rgb(250, 248, 241);
+  margin-left: 15%;
+}
+.cookie {
+  width: 65%;
+  margin-top: 3%;
+  font-size: 12px;
+  margin-left: 15%;
+}
+.signup-inps > .signup-input > input[type="button"] {
+  margin-top: 2%;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(255, 143, 35);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(116, 116, 116);
+  margin-left: 100%;
+}
+.text-error {
+  color: red;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 20px;
+}
+@-webkit-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@-moz-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@-o-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+.signup-card-p > p > a {
+  font-weight: bold;
+  font-size: 19px;
+  -webkit-animation: my 300ms infinite;
+  -moz-animation: my 300ms infinite;
+  -o-animation: my 300ms infinite;
+  animation: my 300ms infinite;
+}

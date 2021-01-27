@@ -10,9 +10,8 @@ function SiderBar(props) {
       </div>
       <div className="siderbar-contai">
         <p>
-          ReactShareCoden.vn where the community shares the lines of code,{" "}
-          <br />
-          Let us be your companion on all projects.
+          ReactShareCoden.vn nơi cộng đồng chia sẻ những dòng mã, <br />
+          Hãy để chúng tôi là người bạn đồng hành cùng bạn trên mọi dự án.
         </p>
       </div>
     </div>

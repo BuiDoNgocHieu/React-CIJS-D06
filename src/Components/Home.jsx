@@ -1,12 +1,12 @@
 import "../assets/css/Home.css";
 import { SiderBar } from "../Components/SiderBar";
-import { SignIn } from "../Components/SignIn";
+import { SigninOutside } from "./SigninOutside";
 
 function Home(props) {
   return (
     <div className="home-cont">
       <SiderBar />
-      <SignIn />
+      <SigninOutside />
     </div>
   );
 }

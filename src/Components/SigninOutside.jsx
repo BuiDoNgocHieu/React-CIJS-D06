@@ -1,18 +1,15 @@
-import "../assets/css/Signin.css";
+import "../assets/css/SigninOutside.css";
 
-function SignIn(props) {
+function SigninOutside(props) {
   return (
-    <div className="signin-cont">
-      <div className="signin-image">
-        <img src="reactsharecode.png" alt="" />
-      </div>
-      <form className="signin-container">
-        <div className="signin-tittle">
+    <div className="signin-Out-cont">
+      <form className="signin-Out-container">
+        <div className="signin-Out-tittle">
           <p>REACTSHARECODE.VN</p>
         </div>
-        <div className="signin-second-bar">
+        <div className="signin-Out-second-bar">
           <p>ĐĂNG NHẬP</p>
-          <div className=" tool-second-bar">
+          <div className=" tools-second-bar">
             <small>(Hoặc) Đăng nhập</small>
             <img src="sing.png" alt="" />
           </div>
@@ -20,27 +17,32 @@ function SignIn(props) {
         <div className="tools-there-bar">
           <p>
             Bạn chưa có tài khoản ReactShareCode.vn?{" "}
-            <a href="/signup">Đăng kí ngay</a>
+            <a href="/signup"> Đăng kí ngay</a>
           </p>
-          <div className="signin-input">
-            <div className="signin-input-child">
+          <div className="signin-Out-input">
+            <div className="signin-Out-input-child">
               <p>Username:</p>
               <input type="text" placeholder="Vui lòng nhập Username" />
             </div>
-            <div className="signin-input-child">
+            <div className="signin-Out-input-child">
               <p>Password:</p>
               <input type="password" placeholder="**********" />
             </div>
           </div>
-          <div className="signin-password">
+          <div className="signin-Out-forget-password">
             <a href="">
               <p>Quên mật khẩu</p>
             </a>
           </div>
-          <div className="signin-input">
-            <input type="button" name="signin" id="signin" value="Đăng nhập" />
+          <div className="signin-Out-input">
+            <input
+              type="button"
+              name="signinOut"
+              id="signinOut"
+              value="Đăng nhập"
+            />
           </div>
-          <div className="signin-epilogues">
+          <div className="signin-Out-epilogue">
             <p>ReactShareCode.vn Cộng đồng chia sẻ và download source code</p>
           </div>
         </div>
@@ -48,4 +50,4 @@ function SignIn(props) {
     </div>
   );
 }
-export { SignIn };
+export { SigninOutside };
