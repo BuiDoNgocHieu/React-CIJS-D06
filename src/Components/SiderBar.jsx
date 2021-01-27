@@ -4,14 +4,14 @@ function SiderBar(props) {
   return (
     <div className="siderbar-cont">
       <div className="siderbar-title">
-        <a href="/">
-          <h2>ReactShareCode.vn</h2>
-        </a>
+        <h2>
+          <a href="/">ReactShareCode.vn</a>
+        </h2>
       </div>
       <div className="siderbar-contai">
         <p>
-          ReactShareCoden.vn nơi cộng đồng chia sẻ những dòng mã, <br />
-          Hãy để chúng tôi là người bạn đồng hành cùng bạn trên mọi dự án.
+          ReactShareCode.vn nơi cộng đồng sẻ chia những dòng code, <br />
+          Hãy để chúng tôi là người đồng hành cùng bạn trên mọi dự án.
         </p>
       </div>
     </div>

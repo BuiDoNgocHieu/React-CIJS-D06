@@ -1,4 +1,4 @@
-import "../assets/css/Signin.css";
+import "../assets/css/SignIn.css";
 
 function SignIn(props) {
   return (
@@ -20,7 +20,7 @@ function SignIn(props) {
         <div className="tools-there-bar">
           <p>
             Bạn chưa có tài khoản ReactShareCode.vn?{" "}
-            <a href="/signup">Đăng kí ngay</a>
+            <a href="/signup">Đăng ký ngay</a>
           </p>
           <div className="signin-input">
             <div className="signin-input-child">
@@ -41,7 +41,7 @@ function SignIn(props) {
             <input type="button" name="signin" id="signin" value="Đăng nhập" />
           </div>
           <div className="signin-epilogues">
-            <p>ReactShareCode.vn Cộng đồng chia sẻ và download source code</p>
+            <p>ReactShareCode.vn Cộng đồng sẻ chia và download source code</p>
           </div>
         </div>
       </form>

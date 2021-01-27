@@ -7,12 +7,12 @@
   align-items: center;
   justify-content: center;
 }
-.siderbar-title > a {
+.siderbar-title > h2 > a {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   color: rgb(139, 203, 53);
-  letter-spacing: 0.05em;
-  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px;
+  letter-spacing: 0.08em;
+  text-shadow: 8px 8px 0px #acabab, 10px 10px 0px;
   height: 100px;
   font-weight: 700;
   text-decoration: none;
@@ -29,4 +29,57 @@
   margin-left: 2%;
   margin-top: 2%;
   text-indent: 20px;
+}
+
+@-webkit-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@-moz-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@-o-keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+@keyframes my {
+  0% {
+    color: rgb(134, 189, 59);
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: rgb(134, 189, 59);
+  }
+}
+.siderbar-title > h2 > a {
+  /* font-weight: bold; */
+  /* font-size: 19px; */
+  -webkit-animation: my 300ms infinite;
+  -moz-animation: my 300ms infinite;
+  -o-animation: my 300ms infinite;
+  animation: my 300ms infinite;
 }

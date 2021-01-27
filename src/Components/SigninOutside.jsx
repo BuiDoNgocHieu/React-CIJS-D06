@@ -17,7 +17,7 @@ function SigninOutside(props) {
         <div className="tools-there-bar">
           <p>
             Bạn chưa có tài khoản ReactShareCode.vn?{" "}
-            <a href="/signup"> Đăng kí ngay</a>
+            <a href="/signup"> Đăng ký ngay</a>
           </p>
           <div className="signin-Out-input">
             <div className="signin-Out-input-child">
@@ -43,7 +43,7 @@ function SigninOutside(props) {
             />
           </div>
           <div className="signin-Out-epilogue">
-            <p>ReactShareCode.vn Cộng đồng chia sẻ và download source code</p>
+            <p>ReactShareCode.vn Cộng đồng sẻ chia và download source code</p>
           </div>
         </div>
       </form>

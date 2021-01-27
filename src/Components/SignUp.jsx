@@ -5,7 +5,7 @@ function SignUp(props) {
     <div className="signup-cont">
       <form className="border">
         <div className="signup-bar">
-          <p>ĐĂNG KÍ TÀI KHOẢN</p>
+          <p>ĐĂNG KÝ TÀI KHOẢN</p>
           <div className="signup-tool-bar">
             <small>(Hoặc) Đăng nhập nhanh</small>
             <img src="sing.png" alt="" />
@@ -78,7 +78,7 @@ function SignUp(props) {
         </div>
         <div className="signup-inps">
           <div className="signup-input">
-            <input type="button" value="Đăng kí" />
+            <input type="button" value="Đăng ký" />
           </div>
         </div>
       </form>
