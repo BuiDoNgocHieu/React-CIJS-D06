@@ -35,7 +35,7 @@ function SignUp(props) {
           </div>
           <div className="signup-inps">
             <label htmlFor="">
-              Tên đăng nhập<span className="text-error">*</span>
+              Username<span className="text-error">*</span>
             </label>
             <div className="signup-input">
               <input type="text" placeholder="VD:  ThanhVy92" />

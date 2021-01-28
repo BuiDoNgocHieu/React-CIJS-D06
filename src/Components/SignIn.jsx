@@ -16,7 +16,7 @@ class SignIn extends Component {
     SignInUltis(this.state)
       .then((userId) => {
         localStorage.setItem("userId", userId);
-        window.location.assign("/");
+        window.location.assign("/homepage");
       })
       .catch((er) => {
         alert(er.message);

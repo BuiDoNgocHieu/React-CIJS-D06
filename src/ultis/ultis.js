@@ -11,6 +11,33 @@ export function showInfo() {
     console.log(firebaseConfig)
 }
 
+export async function signUp(userInformation) {
+    try {
+        const { username, password } = userInformation
+        const flag = await db.collection('users')
+            .where('username', '==', username)
+            .get()
+            .then(querySnapshot => {
+                return querySnapshot.empty
+            })
+
+        if (!flag) {
+            throw new Error('Username was existed!')
+        }
+        const newUserId = await db.collection('users')
+            .add({
+                username: username,
+                password: password
+            }).then(data => {
+                return data.id
+            })
+        return newUserId
+    } catch (err) {
+        throw err
+    }
+}
+
+
 export async function SignInUltis(user) {
     // console.log(user)
     const { username, password } = user
