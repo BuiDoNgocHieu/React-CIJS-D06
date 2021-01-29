@@ -1,0 +1,34 @@
+.siderbar-cont {
+  width: 30%;
+  height: 100%;
+}
+.siderbar-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+.siderbar-title > h3 {
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.siderbar-title > img {
+  width: 40%;
+  height: 50%;
+  border-radius: 50%;
+}
+.siderbar-input {
+  display: flex;
+  justify-content: center;
+}
+.siderbar-input > input {
+  width: 22rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 3%;
+  padding-left: 10px;
+  font-size: 17px;
+  outline: none;
+}
