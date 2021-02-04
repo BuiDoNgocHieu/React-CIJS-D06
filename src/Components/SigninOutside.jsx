@@ -5,7 +5,7 @@ function SigninOutside(props) {
     <div className="signin-Out-cont">
       <form className="signin-Out-container">
         <div className="signin-Out-tittle">
-          <p>REACTSHARECODE.VN</p>
+          <p> EDUCATION KIDS</p>
         </div>
         <div className="signin-Out-second-bar">
           <p>ĐĂNG NHẬP</p>
@@ -16,7 +16,7 @@ function SigninOutside(props) {
         </div>
         <div className="tools-there-bar">
           <p>
-            Bạn chưa có tài khoản ReactShareCode.vn?{" "}
+            Anh (chị) chưa có tài khoản của Education Kids?{" "}
             <a href="/signup"> Đăng ký ngay</a>
           </p>
           <div className="signin-Out-input">
@@ -43,10 +43,16 @@ function SigninOutside(props) {
             />
           </div>
           <div className="signin-Out-epilogue">
-            <p>ReactShareCode.vn Cộng đồng sẻ chia và download source code</p>
+            <p>Education Kids Cộng đồng giáo dục trẻ em Việt Nam</p>
           </div>
         </div>
       </form>
+      <div>
+        <img
+          src="https://curiousworld-static-files.s3.amazonaws.com/s3fs-public/inline-images/footer.png"
+          alt=""
+        />
+      </div>
     </div>
   );
 }

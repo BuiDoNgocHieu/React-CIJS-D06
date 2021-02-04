@@ -4,33 +4,55 @@
   /* border: orangered 4px solid; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.siderbar-image > img {
+  width: 100%;
+  margin-top: 2%;
 }
 .siderbar-title > h2 > a {
   text-align: center;
   font-size: 50px;
   color: rgb(139, 203, 53);
   letter-spacing: 0.08em;
-  text-shadow: 8px 8px 0px #acabab, 10px 10px 0px;
+  text-shadow: 8px 8px 0px #d4d4d4, 10px 10px 0px;
   height: 100px;
   font-weight: 700;
   text-decoration: none;
+  margin-left: 10%;
 }
-.siderbar-title > a > h2 {
+/* .siderbar-title > a > h2 {
   padding-left: 2%;
-}
+} */
 .siderbar-contai > p {
   width: 90%;
-  /* border: 2px red solid; */
+  color: white;
   font-size: 20px;
-  line-height: 1.5;
-  font-weight: normal;
-  margin-left: 2%;
+  /* line-height: 1.5; */
+  font-weight: 200;
+  margin-left: 5%;
   margin-top: 2%;
-  text-indent: 20px;
+  /* text-indent: 30px; */
 }
-
+.siderbar-advantages {
+  margin-top: 5%;
+}
+.siderbar-advantages > small {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 3%;
+  color: white;
+}
+.siderbar-advantages > p {
+  width: 90%;
+  color: white;
+  font-size: 20px;
+  /* line-height: 1.5; */
+  font-weight: 200;
+  margin-left: 5%;
+  margin-top: 2%;
+}
 @-webkit-keyframes my {
   0% {
     color: rgb(134, 189, 59);

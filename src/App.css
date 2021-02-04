@@ -3,9 +3,9 @@
   padding: 0;
   /* box-sizing: border-box; */
 }
-/* body {
-  background-image: url("../public/ReactShareCode.png");
-} */
+body {
+  background-color: rgb(132, 113, 199);
+}
 .border {
   border: 2px solid rgb(140, 102, 53);
 }

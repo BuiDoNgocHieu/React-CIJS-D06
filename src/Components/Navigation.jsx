@@ -5,7 +5,7 @@ function Navigation() {
     <div className="nav-cont">
       <div className="nav-tittle">
         <a href="/">
-          <p className="text">ReactShareCode.vn</p>
+          <p className="text">Education Kids</p>
         </a>
       </div>
       <div className="nav-items tools">

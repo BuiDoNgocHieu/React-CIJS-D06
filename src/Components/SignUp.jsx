@@ -13,7 +13,7 @@ function SignUp(props) {
         </div>
         <div className="signup-card-p">
           <p>
-            Bạn đã có tài khoản ReactShareCode.vn?{" "}
+            Anh (chị) đã có tài khoản Education Kids?{" "}
             <a href="/signin">Đăng nhập ngay</a>
           </p>
         </div>
