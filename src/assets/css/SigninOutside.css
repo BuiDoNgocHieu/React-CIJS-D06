@@ -1,15 +1,17 @@
 .signin-Out-cont {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   background-color: rgb(132, 113, 199);
   margin-top: 0.5%;
   color: rgb(133, 98, 54);
 }
 .signin-Out-cont > form {
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; */
+  margin-top: 2%;
+  margin-left: 15%;
   width: 70%;
   height: 78%;
   background-color: rgb(244, 240, 226);
@@ -61,6 +63,7 @@
   height: 35px;
   margin-left: 3%;
 }
+
 .tools-there-bar > p {
   margin-top: 2%;
   margin-left: 2%;
@@ -181,4 +184,7 @@
   -moz-animation: my 200ms infinite;
   -o-animation: my 200ms infinite;
   animation: my 200ms infinite;
+}
+.signin-Out-img > img {
+  margin-left: 10rem;
 }

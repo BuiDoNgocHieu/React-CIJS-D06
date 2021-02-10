@@ -2,7 +2,7 @@ import './App.css';
 import { Navigation } from "./Components/Navigation";
 import { Home } from './Components/Home';
 import { About } from "./Components/About";
-import { SignIn } from "./Components/SignIn";
+import { ReadOurBlog } from "./Components/ReadOurBlog";
 import { SignUp } from "./Components/SignUp";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     console.log(path)
   }
   const comp = {
-    '/signin': <SignIn />,
+    '/signin': <ReadOurBlog />,
     '/signup': <SignUp />,
     '/': <Home />,
     '/about': <About />,

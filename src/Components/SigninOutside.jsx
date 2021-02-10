@@ -47,7 +47,7 @@ function SigninOutside(props) {
           </div>
         </div>
       </form>
-      <div>
+      <div className="signin-Out-img">
         <img
           src="https://curiousworld-static-files.s3.amazonaws.com/s3fs-public/inline-images/footer.png"
           alt=""

@@ -9,7 +9,7 @@ function Navigation() {
         </a>
       </div>
       <div className="nav-items tools">
-        <a href="/signin">Sign in</a>
+        <a href="/signin">Read Our Blog</a>
         <span className="notify notify-right"></span>
       </div>
       <div className="nav-items tools">
