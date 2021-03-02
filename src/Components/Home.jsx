@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div className="home-cont">
       <SiderBar />
-      <SigninOutside />
+      <SigninOutside error={props.error} trySignIn={props.trySignIn} />
     </div>
   );
 }

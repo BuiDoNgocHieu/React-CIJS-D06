@@ -188,3 +188,8 @@
 .signin-Out-img > img {
   margin-left: 10rem;
 }
+.error {
+  display: flex;
+  justify-content: center;
+  color: red;
+}

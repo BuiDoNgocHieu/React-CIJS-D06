@@ -4,6 +4,7 @@ function ReadOurBlog(props) {
     <div className="read-our-blog-cont">
       <div className="read-our-blog-slogan">
         <h1>E.Kids We're Here For Your Kids</h1>
+        <p>hello word</p>
       </div>
     </div>
   );

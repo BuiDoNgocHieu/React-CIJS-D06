@@ -14,7 +14,7 @@ function SignUp(props) {
         <div className="signup-card-p">
           <p>
             Anh (chị) đã có tài khoản Education Kids?{" "}
-            <a href="/signin">Đăng nhập ngay</a>
+            <a href="/">Đăng nhập ngay</a>
           </p>
         </div>
         <div className="signup-container">
@@ -30,7 +30,11 @@ function SignUp(props) {
               Email<span className="text-error">*</span>
             </label>
             <div className="signup-input">
-              <input type="text" placeholder="VD:  thanhvy123@gmail.com" />
+              <input
+                id="email"
+                type="text"
+                placeholder="VD:  thanhvy123@gmail.com"
+              />
             </div>
           </div>
           <div className="signup-inps">
@@ -38,7 +42,7 @@ function SignUp(props) {
               Username<span className="text-error">*</span>
             </label>
             <div className="signup-input">
-              <input type="text" placeholder="VD:  ThanhVy92" />
+              <input id="user" type="text" placeholder="VD:  ThanhVy92" />
             </div>
           </div>
           <div className="signup-inps">
@@ -46,7 +50,11 @@ function SignUp(props) {
               Số điện thoại<span className="text-error">*</span>
             </label>
             <div className="signup-input">
-              <input type="text" placeholder="VD:  039..., 097..., +84..." />
+              <input
+                id="sdt"
+                type="text"
+                placeholder="VD:  039..., 097..., +84..."
+              />
             </div>
           </div>
           <div className="signup-inps">
@@ -54,7 +62,7 @@ function SignUp(props) {
               Password<span className="text-error">*</span>
             </label>
             <div className="signup-input">
-              <input type="password" placeholder="**********" />
+              <input id="pass" type="password" placeholder="**********" />
             </div>
           </div>
           <div className="signup-inps">
@@ -78,7 +86,18 @@ function SignUp(props) {
         </div>
         <div className="signup-inps">
           <div className="signup-input">
-            <input type="button" value="Đăng ký" />
+            <input
+              type="button"
+              value="Đăng ký"
+              onClick={() => {
+                props.trySignUp({
+                  email: document.getElementById("email").value,
+                  username: document.getElementById("user").value,
+                  password: document.getElementById("pass").value,
+                  numberPhone: document.getElementById("sdt").value,
+                });
+              }}
+            />
           </div>
         </div>
       </form>

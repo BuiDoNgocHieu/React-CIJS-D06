@@ -22,11 +22,15 @@ function SigninOutside(props) {
           <div className="signin-Out-input">
             <div className="signin-Out-input-child">
               <p>Username:</p>
-              <input type="text" placeholder="Vui lòng nhập Username" />
+              <input
+                id="username"
+                type="text"
+                placeholder="Vui lòng nhập Username"
+              />
             </div>
             <div className="signin-Out-input-child">
               <p>Password:</p>
-              <input type="password" placeholder="**********" />
+              <input id="password" type="password" placeholder="**********" />
             </div>
           </div>
           <div className="signin-Out-forget-password">
@@ -34,12 +38,19 @@ function SigninOutside(props) {
               <p>Quên mật khẩu</p>
             </a>
           </div>
+          {props.error === null ? null : <p className="error">{props.error}</p>}
           <div className="signin-Out-input">
             <input
               type="button"
               name="signinOut"
               id="signinOut"
               value="Đăng nhập"
+              onClick={() => {
+                props.trySignIn({
+                  username: document.getElementById("username").value,
+                  password: document.getElementById("password").value,
+                });
+              }}
             />
           </div>
           <div className="signin-Out-epilogue">
