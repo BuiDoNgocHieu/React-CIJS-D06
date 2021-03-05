@@ -7,6 +7,8 @@ import { SignUp } from "./Components/SignUp";
 import { signIn, signUp } from "./ultis/ultis";
 import { Component } from 'react';
 import { HomePage } from './Components/HomePage';
+import { BeepBeep } from './Components/BeepBeep';
+import { BillyBamBam } from './Components/Billy&BamBam';
 
 class App extends Component {
   constructor(props) {
@@ -18,6 +20,7 @@ class App extends Component {
     this.trySignIn = this.trySignIn.bind(this);
     this.trySignUp = this.trySignUp.bind(this);
     this.trySignOut = this.trySignOut.bind(this);
+    this.trySignOut = this.tryComeBack.bind(this);
 
   }
   trySignIn(accountInfo) {
@@ -46,6 +49,10 @@ class App extends Component {
   trySignOut() {
     localStorage.removeItem("userId")
     this.setState({ userId: null })
+    window.location.assign("/");
+  }
+  tryComeBack() {
+    window.location.assign("/homepage");
   }
   render() {
     let path = window.location.pathname
@@ -60,7 +67,9 @@ class App extends Component {
       '/signup': <SignUp trySignUp={this.trySignUp} />,
       '/': <Home error={this.state.error} trySignIn={this.trySignIn} />,
       '/about': <About />,
-      "/homepage": <HomePage userId={this.state.userId} />,
+      "/homepage": <HomePage trySignOut={this.trySignOut} userId={this.state.userId} />,
+      '/beepbeep': <BeepBeep tryComeBack={this.tryComeBack} />,
+      '/billy&bambam': <BillyBamBam tryComeBack={this.tryComeBack} />,
     }
     console.log(path)
     // signIn({ username: "ngochieu", password: "35123" })

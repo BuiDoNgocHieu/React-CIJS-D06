@@ -1,0 +1,128 @@
+.homePage-slogan {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+}
+.homePage-slogan > input {
+  width: 10rem;
+  margin-left: 1%;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(255, 143, 35);
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 5px rgb(116, 116, 116);
+}
+.homePage-slogan > h1 {
+  margin-left: auto;
+  margin-right: 2%;
+  font-size: 40px;
+  font-weight: 900;
+}
+.homePage-content {
+  display: flex;
+  flex-direction: row;
+}
+.homePage-content > .image {
+  margin-top: 5%;
+  position: fixed;
+}
+.homePage-content > .images {
+  margin-top: 5%;
+  margin-left: 73.4rem;
+  position: fixed;
+}
+.homePage-content > .homePage-control {
+  margin-top: 3%;
+}
+.homePage-control {
+  width: 65%;
+  border: 3px solid red;
+  margin-left: 15rem;
+}
+.homePage-cont-border {
+  /* margin-top: 2%;
+  margin-left: 2%; */
+  display: flex;
+  flex-direction: row;
+}
+.homePage-BeepBeep {
+  width: 25rem;
+  height: 13rem;
+  border: 1rem solid white;
+  border-radius: 2rem;
+}
+.homePage-BeepBeep > .img-beepbeep {
+  width: 100%;
+  height: 65%;
+}
+.homePage-BeepBeep > .img-beepbeep > img {
+  width: 70%;
+  margin-left: 1.5rem;
+}
+.homePage-BeepBeep > .a-beepbeep {
+  border-top: 1px solid white;
+  background-color: white;
+  height: 35%;
+}
+.homePage-BeepBeep > .a-beepbeep > a {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+@-webkit-keyframes my {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
+}
+@-moz-keyframes my {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
+}
+@-o-keyframes my {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
+}
+@keyframes my {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
+}
+.homePage-slogan > h1 {
+  font-weight: bold;
+  font-size: 40px;
+  -webkit-animation: hi 300ms infinite;
+  -moz-animation: hi 300ms infinite;
+  -o-animation: my 300ms infinite;
+  animation: my 300ms infinite;
+}
