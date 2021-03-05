@@ -2,8 +2,8 @@ import {} from "../assets/css/BillyAndBamBam.css";
 
 export function BillyBamBam(props) {
   return (
-    <div className="bipbip-container">
-      <div className="bipbip-come-back">
+    <div className="bambam-container">
+      <div className="bambam-come-back">
         <h1>Billy & BamBam</h1>
         <input
           type="button"
@@ -26,7 +26,7 @@ export function BillyBamBam(props) {
           alt="squirrel"
         />
       </div>
-      <div className="beepbeep-contr">
+      <div className="bambam-contr">
         <div className="beepbeep-slogan">
           <h1>Theme: Building Friendships</h1>
           <h3>ABOUT THE SHOW</h3>
@@ -64,8 +64,10 @@ export function BillyBamBam(props) {
             puppets!
           </p>
         </div>
-        <div className="beepbeep-iframe">
+        <div className="bambam-iframe">
           <iframe
+            width="800"
+            height="400"
             src="https://player.vimeo.com/video/373703215?dnt=1&app_id=122963&autoplay=1"
             frameborder="0"
           ></iframe>

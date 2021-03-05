@@ -9,6 +9,11 @@ import { Component } from 'react';
 import { HomePage } from './Components/HomePage';
 import { BeepBeep } from './Components/BeepBeep';
 import { BillyBamBam } from './Components/Billy&BamBam';
+import { Matinee } from './Components/Matinee';
+import { Dino } from './Components/Dino&theEggHunt';
+import { Charlie } from './Components/Charlie&theNumber';
+import { Ahoy } from './Components/AhoyPirates';
+
 
 class App extends Component {
   constructor(props) {
@@ -70,15 +75,13 @@ class App extends Component {
       "/homepage": <HomePage trySignOut={this.trySignOut} userId={this.state.userId} />,
       '/beepbeep': <BeepBeep tryComeBack={this.tryComeBack} />,
       '/billy&bambam': <BillyBamBam tryComeBack={this.tryComeBack} />,
+      '/matinee': <Matinee tryComeBack={this.tryComeBack} />,
+      '/dino': <Dino tryComeBack={this.tryComeBack} />,
+      '/charlie': <Charlie tryComeBack={this.tryComeBack} />,
+      '/ahoy': <Ahoy tryComeBack={this.tryComeBack} />,
     }
     console.log(path)
-    // signIn({ username: "ngochieu", password: "35123" })
-    //   .then((userInfo) => {
-    //     console.log(userInfo);
-    //   })
-    //   .catch((error) => {
-    //     console.log(error);
-    //   })
+
     console.log(this.state.userId);
     return (
 

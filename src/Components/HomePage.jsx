@@ -48,44 +48,44 @@ export function HomePage(props) {
               </div>
             </div>
 
-            <div>
-              <div>
+            <div className="homePage-matinee">
+              <div className="img-matinee">
                 <img
                   src="https://www.babytv.com/app/uploads/2020/12/Mini-Matineei1-Circle.png"
                   alt="Matinee nhỏ"
                 />
               </div>
-              <div>
-                <a href="">
-                  <h3>Matinee nhỏ</h3>
+              <div className="a-matinee">
+                <a href="/matinee">
+                  <h3>Mini Matinee</h3>
                 </a>
               </div>
             </div>
 
-            <div>
-              <div>
+            <div className="homePage-dino">
+              <div className="img-dino">
                 <img
                   src="https://www.babytv.com/app/uploads/2021/01/Dino-Circle2.png"
-                  alt="Dino & Cuộc săn trứng"
+                  alt="Dino & the Egg Hunt"
                 />
               </div>
-              <div>
-                <a href="">
-                  <h3>Dino & Cuộc săn trứng</h3>
+              <div className="a-dino">
+                <a href="/dino">
+                  <h3>Dino & the Egg Hunt</h3>
                 </a>
               </div>
             </div>
 
-            <div>
-              <div>
+            <div className="homePage-charlie">
+              <div className="img-charlie">
                 <img
                   src="https://www.babytv.com/app/uploads/2021/01/Charlie-circle.png"
-                  alt="Charlie & Những con số"
+                  alt="Charlie & the Number"
                 />
               </div>
-              <div>
-                <a href="">
-                  <h3>Charlie & Những con số</h3>
+              <div className="a-charlie">
+                <a href="/charlie">
+                  <h3>Charlie & the Numbers</h3>
                 </a>
               </div>
             </div>
@@ -94,12 +94,12 @@ export function HomePage(props) {
               <div>
                 <img
                   src="https://www.babytv.com/app/uploads/2020/05/Pirates-Circle.png"
-                  alt="Cướp biển Ahoy"
+                  alt="Ahoy Pirates"
                 />
               </div>
               <div>
-                <a href="">
-                  <h3>Cướp biển Ahoy</h3>
+                <a href="/ahoy">
+                  <h3>Ahoy Pirates</h3>
                 </a>
               </div>
             </div>

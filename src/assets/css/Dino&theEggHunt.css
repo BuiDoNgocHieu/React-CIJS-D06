@@ -1,10 +1,10 @@
-.beepbeep-come-back {
+.dino-come-back {
   width: 100%;
   height: 15rem;
-  background-image: url(https://www.babytv.com/app/uploads/2019/11/Show-header-BeepBeep.png);
+  background-image: url(https://www.babytv.com/app/uploads/2020/11/Dino-Show-header-1.jpg);
   background-size: cover;
 }
-.beepbeep-come-back > input {
+.dino-come-back > input {
   width: 10rem;
   height: 2.5rem;
   margin-left: 75rem;
@@ -17,7 +17,7 @@
   color: rgb(255, 255, 255);
   box-shadow: 5px 5px 5px rgb(116, 116, 116);
 }
-.beepbeep-come-back > h1 {
+.dino-come-back > h1 {
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
@@ -26,47 +26,46 @@
   font-size: 3rem;
   font-weight: 800;
 }
-.bipbip-butterfly > img {
+.dino-butterfly > img {
   width: 15rem;
   height: 15rem;
   position: fixed;
-  /* margin-top: 5rem; */
 }
-.beepbeep-contr {
-  /* border: 3px solid red; */
+.dino-contr {
   width: 60%;
-  height: 80rem;
+  height: 60rem;
+  margin-top: 4rem;
   margin-left: 15rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 10px 10px 10px rgb(116, 116, 116);
   border-radius: 50px;
 }
-.bipbip-squirrel > img {
+.dino-squirrel > img {
   margin-left: 67rem;
   /* margin-top: 14rem; */
   position: fixed;
 }
-.beepbeep-slogan {
+.dino-slogan {
   margin-left: 4rem;
   padding-top: 1rem;
 }
-.beepbeep-slogan > h1 {
+.dino-slogan > h1 {
   color: rgb(0, 238, 255);
   font-family: AG Book Rounded !important;
   /* font-weight: 900; */
   letter-spacing: 2px;
   font-size: 2.2rem;
 }
-.beepbeep-slogan > h3 {
+.dino-slogan > h3 {
   color: rgb(0, 238, 255);
   font-family: AG Book Rounded !important;
   font-size: 1rem;
 }
-.beepbeep-synopsis {
+.dino-synopsis {
   margin-left: 1rem;
   margin-top: 1rem;
 }
-.beepbeep-synopsis > input {
+.dino-synopsis > input {
   width: 7rem;
   height: 2rem;
   margin-top: 1rem;
@@ -76,17 +75,17 @@
   font-size: 17px;
   background-color: rgb(247, 247, 247);
 }
-.beepbeep-synopsis > p {
+.dino-synopsis > p {
   width: 95%;
   text-indent: 20px;
   margin-top: 5px;
   line-height: 25px;
 }
-.beepbeep-attribute {
+.dino-attribute {
   margin-left: 1rem;
   margin-top: 1rem;
 }
-.beepbeep-attribute > input {
+.dino-attribute > input {
   width: 7rem;
   height: 2rem;
   margin-top: 1rem;
@@ -96,17 +95,17 @@
   font-size: 17px;
   background-color: rgb(247, 247, 247);
 }
-.beepbeep-attribute > p {
+.dino-attribute > p {
   width: 95%;
   text-indent: 20px;
   margin-top: 5px;
   line-height: 25px;
 }
-.beepbeep-tip {
+.dino-tip {
   margin-left: 1rem;
   margin-top: 1rem;
 }
-.beepbeep-tip > input {
+.dino-tip > input {
   width: 7rem;
   height: 2rem;
   margin-top: 1rem;
@@ -116,12 +115,13 @@
   font-size: 17px;
   background-color: rgb(247, 247, 247);
 }
-.beepbeep-tip > p {
+.dino-tip > p {
   width: 95%;
   text-indent: 20px;
   margin-top: 5px;
   line-height: 25px;
 }
-.beepbeep-iframe {
-  margin-top: 1rem;
+.dino-iframe {
+  margin-top: 2rem;
+  margin-left: 1.7rem;
 }

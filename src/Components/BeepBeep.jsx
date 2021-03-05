@@ -3,7 +3,7 @@ import {} from "../assets/css/BeepBeep.css";
 export function BeepBeep(props) {
   return (
     <div className="bipbip-container">
-      <div className="bipbip-come-back">
+      <div className="beepbeep-come-back">
         <h1>Beep Beep</h1>
         <input
           type="button"
@@ -65,6 +65,8 @@ export function BeepBeep(props) {
         </div>
         <div className="beepbeep-iframe">
           <iframe
+            width="800"
+            height="270"
             src="https://player.vimeo.com/video/374642534?dnt=1&app_id=122963&autoplay=1"
             frameborder="0"
           ></iframe>
