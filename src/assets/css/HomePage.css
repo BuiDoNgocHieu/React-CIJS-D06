@@ -14,6 +14,32 @@
   color: rgb(255, 255, 255);
   box-shadow: 5px 5px 5px rgb(116, 116, 116);
 }
+.thanhchon {
+  width: 100%;
+  height: 2rem;
+  border: white 2px solid;
+  border-radius: 3rem;
+}
+.thanhchon > .cl {
+  margin-left: 5rem;
+}
+.thanhchon > .idol {
+  margin-left: 3rem;
+}
+.thanhchon > .fe {
+  margin-left: 5rem;
+}
+.thanhchon > input {
+  width: 7rem;
+  height: 2rem;
+  font-size: 17px;
+  outline: none;
+}
+.thanhchon > .danhmuc {
+  width: 15rem;
+  margin-left: 5rem;
+}
+
 .homePage-slogan > h1 {
   margin-left: auto;
   margin-right: 2%;
@@ -38,38 +64,91 @@
 }
 .homePage-control {
   width: 65%;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   margin-left: 15rem;
 }
-.homePage-cont-border {
-  /* margin-top: 2%;
-  margin-left: 2%; */
+.cot1 {
   display: flex;
   flex-direction: row;
+  margin-top: 1rem;
 }
 .homePage-BeepBeep {
-  width: 25rem;
-  height: 13rem;
-  border: 1rem solid white;
-  border-radius: 2rem;
+  box-shadow: 5px 5px 5px rgb(85, 85, 85);
 }
-.homePage-BeepBeep > .img-beepbeep {
-  width: 100%;
-  height: 65%;
+.homePage-BeepBeep > .so1 {
+  text-decoration: none;
 }
-.homePage-BeepBeep > .img-beepbeep > img {
-  width: 70%;
-  margin-left: 1.5rem;
-}
-.homePage-BeepBeep > .a-beepbeep {
-  border-top: 1px solid white;
-  background-color: white;
-  height: 35%;
-}
-.homePage-BeepBeep > .a-beepbeep > a {
+.homePage-BeepBeep > .so1 > .small-beepbeep {
+  font-size: 17px;
   display: flex;
   justify-content: center;
-  padding-top: 1.5rem;
-  font-size: 20px;
+  color: white;
+}
+.homePage-billy {
+  margin-left: 2rem;
+  box-shadow: 5px 5px 5px rgb(85, 85, 85);
+}
+.homePage-billy {
+  box-shadow: 5px 5px 5px rgb(85, 85, 85);
+}
+.homePage-billy > .so2 {
   text-decoration: none;
+}
+.homePage-billy > .so2 > .small-billy {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.homePage-matinee {
+  margin-left: 2rem;
+  box-shadow: 5px 5px 5px rgb(85, 85, 85);
+}
+
+.homePage-matinee {
+  box-shadow: 5px 5px 5px rgb(85, 85, 85);
+}
+.homePage-matinee > .so3 {
+  text-decoration: none;
+}
+.homePage-matinee > .so3 > .small-matinee {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.cot2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.cot5 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.cot3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.cot4 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.cot6 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.cot7 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.cot8 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
 }

@@ -66,7 +66,7 @@ export function BeepBeep(props) {
         <div className="beepbeep-iframe">
           <iframe
             width="800"
-            height="270"
+            height="350"
             src="https://player.vimeo.com/video/374642534?dnt=1&app_id=122963&autoplay=1"
             frameborder="0"
           ></iframe>
