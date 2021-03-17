@@ -5,6 +5,9 @@ import React, { Component } from 'react';
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      data: []
+    }
   };
   componentDidMount() {
     console.log("day la did mount")
@@ -15,16 +18,15 @@ class App extends Component {
         this.setState({
           data: data.results
         })
+
       })
   }
   render() {
     return (
       <div>
-        <Home />
+        <Home data={this.state.data} />
       </div>
     );
   }
 };
-
-
 export default App;

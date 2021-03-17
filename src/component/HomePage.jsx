@@ -8,13 +8,29 @@ export function Home(props) {
       </div>
       <div className="game">
         <div className="home-question">
-          <p>"Who won the 2015 Formula 1 World Championship?"</p>
+          <p>{props.data[1]?.question}</p>
         </div>
         <div className="home-class-answer">
-          <input className="answer1" type="button" value="Nico Rosberg" />
-          <input className="answer2" type="button" value="Sebastian Vettel" />
-          <input className="answer3" type="button" value="Jenson Button" />
-          <input className="answer4" type="button" value="Lewis Hamilton" />
+          <input
+            className="answer1"
+            type="button"
+            value={props.data[1]?.incorrect_answers[0]}
+          />
+          <input
+            className="answer2"
+            type="button"
+            value={props.data[1]?.incorrect_answers[2]}
+          />
+          <input
+            className="answer3"
+            type="button"
+            value={props.data[1]?.incorrect_answers[1]}
+          />
+          <input
+            className="answer4"
+            type="button"
+            value={props.data[1]?.correct_answer}
+          />
         </div>
       </div>
     </div>
